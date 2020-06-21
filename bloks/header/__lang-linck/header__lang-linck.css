@@ -1,0 +1,12 @@
+.header__lang-linck {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__lang-linck:last-of-type {
+    margin-left: 18px;
+}
+
+.header__lang-linck:hover {
+    opacity: 0.8;
+}

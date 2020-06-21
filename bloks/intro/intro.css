@@ -1,0 +1,19 @@
+@import URL("./__title/intro__title.css");
+@import URL("./__text/intro__text.css");
+@import URL("./__list/intro__list.css");
+
+.intro {
+    grid-row: 3;
+    grid-column: 2;
+    grid-area: intro;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    margin: 92px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        grid-template-columns: 1fr;
+        justify-self: start;
+    }
+}

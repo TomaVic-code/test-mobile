@@ -1,0 +1,14 @@
+.places {
+    grid-row: 5;
+    grid-column: 2;
+    grid-area: places;
+    display: flex;
+    flex-direction: column;
+    margin: 92px 100px 0;
+}
+
+@media (max-width: 1024px) {
+    .places {
+        margin: 92px 0 0 0;
+    }
+}

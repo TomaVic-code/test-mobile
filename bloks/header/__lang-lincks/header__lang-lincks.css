@@ -1,0 +1,15 @@
+.header__lang-lincks {
+    font-size: 24px;
+    line-height: 28px;
+    list-style: none;
+    display: flex;
+    padding: 24px 0 0 0;
+}
+
+@media (max-width: 320px) {
+    .header__lang-lincks {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 16px 0 0 0;
+    }
+}

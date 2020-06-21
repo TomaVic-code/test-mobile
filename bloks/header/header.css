@@ -1,0 +1,11 @@
+@import url("./__logo/header__logo.css");
+@import url("./__lang-lincks/header__lang-lincks.css");
+@import url("./__lang-linck/header__lang-linck.css");
+
+.header {
+    grid-row: 1;
+    grid-column: 2;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.footer__linck {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.footer__linck:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 320px) {
+    .footer__linck {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+}

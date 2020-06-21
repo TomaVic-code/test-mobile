@@ -1,0 +1,7 @@
+.place__paragraph_margin-set {
+    margin: 0;
+}
+
+.place__paragraph_margin-set:nth-child(n+2) {
+    margin-top: 24px;
+}

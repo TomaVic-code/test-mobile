@@ -1,0 +1,16 @@
+@import url("./__lincks/footer__lincks.css");
+@import url("./__linck/footer__linck.css");
+
+.footer {
+    grid-row: 7;
+    grid-column: 2;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+    }
+}

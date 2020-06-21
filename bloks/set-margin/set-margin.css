@@ -1,0 +1,8 @@
+@media (max-width: 320px) {
+    .set-margin {
+        margin: 0 0 32px 0;
+    }
+    .set-margin:last-of-type {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,18 @@
+@import url("./_url-heading/place__website_url-heading.css");
+@import url("./_linck/place__website_linck.css");
+
+.place__website {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-end;
+}
+
+
+@media (max-width: 320px) {
+    .place__website {
+        font-size: 16px;
+        line-height: 26px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
